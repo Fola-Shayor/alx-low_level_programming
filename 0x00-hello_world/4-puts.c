@@ -2,11 +2,14 @@
 /**
  *prints a string using puts
  */
-int main(void)
+int main()
 /**
  *prints a string  using puts
  */
 {
-  puts("\"Programming is like building a multilingual puzzle");
-  return (0);
+   puts("\"Programming is like building a multilingual puzzle");
+   return (0);
+   /**
+    *return a value of 0
+    */
 }
