@@ -6,7 +6,7 @@
 int main(void)
 /**
  *@puts: the command to be used
- *Return: 0 if a statement is printed
+ *Return: 0
  */
 {
 puts("\"Programming is like building a multilingual puzzle");
