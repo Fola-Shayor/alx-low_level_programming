@@ -1,15 +1,15 @@
 #include <stdio.h>
 /**
+ *main - a program that prints a sentence
  *prints a string using puts
  */
-int main()
+int main(void)
 /**
- *prints a string  using puts
+ *main - checks if the program is printed
+ *@puts: the command to be used 
+ *return: 0 if a statement is printed
  */
 {
-   puts("\"Programming is like building a multilingual puzzle");
-   return (0);
-   /**
-    *return a value of 0
-    */
+puts("\"Programming is like building a multilingual puzzle");
+        return (0);
 }
