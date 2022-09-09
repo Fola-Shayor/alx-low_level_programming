@@ -6,9 +6,9 @@
  */
 int main(void)
 {
-int x = 'A';
-while (x <= 'Z')
-putchar(tolower(x));
-x++
+int x = 'a';
+while (x <= 'z')
+putchar(x);
+x++;
 return (0);
 }
