@@ -2,14 +2,15 @@
 /**
  *main - Entry point
  *
- *Return: Always 0 (Success)
+ *Return: Always 0 )Success_
  */
 int main(void)
 {
-int x;
-for (x = 'z'; x >= 'a'; x--)
+int n;
+for (n = '0'; n <= '9'; n++)
 {
-putchar(x);
+putchar(n);
+putchar(',');
 }
 putchar('\n');
 return (0);
