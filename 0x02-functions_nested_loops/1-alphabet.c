@@ -10,10 +10,6 @@ int x;
 for (x = 'a'; x <= 'z'; x++)
 {
 putchar(x);
-}
-int main(void)
-{
-print_alphabet();
 return (0);
 }
 
