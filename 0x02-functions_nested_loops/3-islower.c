@@ -3,7 +3,7 @@
 #include <ctype.h>
 #include <unistd.h>
 /**
- *int _islower - checks for lower case letters
+ *_islower - checks for lower case letters
  *
  *Return: 1 (success)
  */
