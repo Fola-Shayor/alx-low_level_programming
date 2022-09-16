@@ -5,7 +5,7 @@
  *@x: an integer
  *Return: 0 (success)
  */
-int print_numbers(void)
+void print_numbers(void)
 {
 int x;
 for (x = 0; x <= 9; x++)
