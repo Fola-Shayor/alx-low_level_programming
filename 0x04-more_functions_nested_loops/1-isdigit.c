@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include "main.h"
+#include <ctype.h>
 /**
  *_isdigit - checks of c is a digit between 0 and 9
  *@c: a variable containing the value to be checked
@@ -7,7 +8,7 @@
  */
 int _isdigit(int c)
 {
-if (c >= 0 || c <= 9)
+  if (isdigit(c))
 {
 return (1);
 }

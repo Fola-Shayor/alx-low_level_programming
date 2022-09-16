@@ -2,16 +2,15 @@
 #include "main.h"
 /**
  *print_numbers - prints numbers 0 - 9 followed by a new line
- *@i: an integer
+ *@x: an integer
  *Return: 0 (success)
  */
 int print_numbers(void)
 {
-int i;
-for (i = 0; i <= 9; i++)
+int x;
+for (x = 0; x <= 9; x++)
 {
-_putchar(i);
+_putchar(x);
 }
 _putchar('\n');
-return (0);
 }
