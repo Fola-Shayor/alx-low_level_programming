@@ -6,7 +6,7 @@
  *@s: a character
  *Return:
  */
-int _strlen(char *s)
+int _strlen(const char *s)
 {
-return(strlen(*s));
+return(strlen(s));
 }
