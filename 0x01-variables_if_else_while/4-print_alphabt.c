@@ -2,7 +2,7 @@
 /**
  *main - returns all aplphabets except 'q' and 'e' and a new line
  *
- *Return: void
+ *Return: 0 (success)
  */
 int main(void)
 {
@@ -16,4 +16,5 @@ continue;
 putchar(x);
 }
 putchar('\n');
+return (0);
 }
