@@ -6,9 +6,9 @@
  *@s: a character variable
  *Return: nothing
  */
-int _strlen(const char *s) 
+int _strlen(const char *s)
 {
-  return (strlen(s)); 
+return (strlen(s));
 }
 
 /**
