@@ -10,9 +10,9 @@ int _atoi(char *s)
 {
 int i;
 int conv;
-for (i = 0; arr[i] != '\0'; ++i)
+for (i = 0; s[i] != '\0'; ++i)
 {
-conv = conv * 10 + arr[i] - '0';
+conv = conv * 10 + s[i] - '0';
 }
 return (conv);
 }
