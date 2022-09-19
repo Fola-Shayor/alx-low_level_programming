@@ -7,12 +7,13 @@
  */
 int _abs(int n)
 {
-if (x < 0)
+if (n < 0)
 {
-x = x * -1;
-printf("%d\n", x);
+n = n * -1;
+printf("%d\n", n);
 }
 else {
-printf("%d\n", x);
+printf("%d\n", n);
 }
+return (0);
 }
