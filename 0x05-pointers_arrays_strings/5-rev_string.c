@@ -16,7 +16,7 @@ int _strlen(const char *s)
  *@s:a character
  *Return: nothing
  */
-void print_rev(char *s)
+void rev_string(char *s)
 {
 int i;
 int len;
