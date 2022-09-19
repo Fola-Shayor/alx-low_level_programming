@@ -5,9 +5,8 @@
  *@x: variable used to store values for looping
  *Return: void
  */
-void print_most_numbers(void)
+void print_most_numbers(int x)
 {
-int x;
 for (x = 0; x <= 9; x++)
 {
 if ((x != 2 && x != 4))
