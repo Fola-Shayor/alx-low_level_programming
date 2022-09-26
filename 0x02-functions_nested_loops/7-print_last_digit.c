@@ -7,5 +7,13 @@
  */
 int print_last_digit(int n)
 {
-return (n % 10);
+if (n > 0)
+{
+n = n % 10;
+printf("%d", n);
+printf("%d\n", n);
 }
+else
+n = (-n % 10);
+printf("%d", n);
+return ("%d\n",n);
