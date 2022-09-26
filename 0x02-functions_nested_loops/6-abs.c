@@ -13,7 +13,5 @@ n = n * -1;
 printf("%d\n", n);
 }
 else
-{
 printf("%d\n", n);
-}
 }
