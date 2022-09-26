@@ -11,9 +11,9 @@ if (n > 0)
 {
 n = n % 10;
 printf("%d", n);
-printf("%d\n", n);
+return (n);
 }
 else
 n = (-n % 10);
 printf("%d", n);
-return ("%d\n",n);
+return (n);
