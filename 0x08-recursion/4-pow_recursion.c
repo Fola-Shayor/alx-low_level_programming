@@ -13,5 +13,6 @@ if ( y < 0)
 {
 return (-1);
 }
-return (pow(x, y));
+int result = pow(x, y);
+return (result);
 }
