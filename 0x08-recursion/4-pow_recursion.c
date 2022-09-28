@@ -8,8 +8,8 @@
  *Return: x^y
  */
 int _pow_recursion(int x, int y)
-int result;
 {
+int result;
 if ( y < 0)
 {
 return (-1);
