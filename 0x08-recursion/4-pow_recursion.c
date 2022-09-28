@@ -14,6 +14,9 @@ if ( y < 0)
 {
 return (-1);
 }
-result = pow(x, y);
-return (result);
+else if (y == 1)
+{
+return (1);
+}
+return (x * _pow_recursion(x , (y - 1));
 }
