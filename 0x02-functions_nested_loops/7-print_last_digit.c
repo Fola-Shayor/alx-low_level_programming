@@ -17,3 +17,4 @@ else
 n = (-n % 10);
 printf("%d", n);
 return (n);
+}
