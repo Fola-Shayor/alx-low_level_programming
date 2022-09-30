@@ -9,9 +9,9 @@
  */
 int main(int argc, char *argv[])
 {
-int mul;
-if (argc == 2)
+if (argc == 3)
 {
+int mul;
 mul = atoi(argv[1]) * atoi(argv[2]);
 printf("%d\n", mul);
 }
