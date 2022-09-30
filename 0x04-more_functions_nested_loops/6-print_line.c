@@ -12,9 +12,12 @@ if (n <= 0)
 {
 putchar('\n');
 }
+while (n > 0)
+{
 for (x = 0; x < n; x++)
 {
-_putchar('-');
+_putchar('_');
 }
 _putchar('\n');
+}
 }
