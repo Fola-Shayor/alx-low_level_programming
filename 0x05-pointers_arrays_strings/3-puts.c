@@ -7,5 +7,10 @@
  */
 void _puts(const char *str)
 {
-puts(str);
+int i;
+for (i = 0; i != '\0'; i++)
+{
+_putchar(i);
+}
+_putchar('\n');
 }
