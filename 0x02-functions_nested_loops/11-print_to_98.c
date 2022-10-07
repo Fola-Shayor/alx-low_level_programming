@@ -23,5 +23,6 @@ _putchar(n);
 _putchar(',');
 _putchar(' ');
 }
+}
 _putchar('\n');
 }
