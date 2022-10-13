@@ -18,7 +18,7 @@ if (n)
 va_start(list, n);
 for (i = 0; i < n; i++)
 {
-sum += var_arg(list, int);
+sum += va_arg(list, int);
 }
 va_end(list);
 }
