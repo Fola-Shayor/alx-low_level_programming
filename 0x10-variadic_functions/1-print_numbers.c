@@ -16,7 +16,7 @@ for (i = 0; i < n; i++)
 if (separator !=  NULL)
 {
 printf("%d", va_arg(list, int));
-printf("%c", separator);
+printf("%s", separator);
 }
 else
 {
